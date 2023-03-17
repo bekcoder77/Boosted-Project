@@ -1,0 +1,508 @@
+$globalColor:#e86a59;
+button{
+    cursor: pointer;
+}
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+li{
+list-style: none;
+font-size: 20px;
+transition: all 0.3s ease-in;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #E5E5E5;
+ h2{
+      text-align: center;
+      background-color: black;
+      color: white;
+    }
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+.links{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+& li:hover {
+    color: #e86a59;
+}
+}
+.down {
+i{
+    font-size: 25px;
+    margin-left: 5px;
+}
+}
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/Rectangle\ \(1\).png); 
+    backdrop-filter:inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+.header-title{
+    
+  text-align: center;
+  line-height: 20px;
+
+}
+h1{
+    font-size: 44px;
+    padding: 30px 0;
+    padding-top: 80px;
+    font-weight: 500;
+}
+.btn{
+    padding: 10px 65px;
+    border-radius: 40px;
+    background-color: $globalColor;
+    margin-top: 20px;
+    border: none;
+    color: white;
+}
+}
+.header-footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-footer img{
+    width: 200px;
+    height: 50px;
+}
+h3{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 30px;
+    
+}
+
+.main-info{
+    text-align: center;
+h3{
+    padding-top: 50px;
+    font-size: 32px;
+}
+p{
+ margin: 0 auto;
+width: 750px;
+font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+margin-bottom: 30px;
+}
+h6{
+    width: 80px;
+    height: 3px;
+    background-color: #CFCFCF;
+    margin: 0 auto;
+}
+}
+
+.main-cards{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+ 
+  margin-top: 40px;
+  .card{
+    position: relative;
+  }
+  h4{
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    left: 180px;
+    bottom: 270px;
+    font-weight: 400;
+
+
+  }
+  p{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: 260px;
+    bottom: 220px;
+    font-weight: 400;
+
+
+  }
+}
+.main-img{
+    margin-top: 30px;
+    width: 100%;
+    height: 100vh;  
+   background: url(../images/Rectangle\ \(7\).png);
+   background-repeat: no-repeat;
+   background-size: cover;
+.main-title{
+        width: 100%;
+        padding: 40px;
+        text-align: center;
+       
+ h5{
+   color: black;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 19px;
+   margin-bottom: 15px;
+         
+ }
+ h1{
+   font-style: normal;
+   font-weight: 500;
+   font-size: 45px;
+   line-height: 51px;
+   margin-bottom: 15px;
+          
+        }
+         
+ p{     
+        line-height: 20px;
+        margin-top: 20px;
+        margin: 0 auto;
+    }
+.btn{
+        padding: 10px 65px;
+        border-radius: 35px;
+        background-color: $globalColor;
+        color: white;
+        text-align: center;
+        margin-top: 20px;   
+        border: none;
+    }
+    } 
+}
+.main-images{
+    width: 100%;
+    display: flex;
+    // gap: 20px;
+    justify-content: space-evenly;
+   
+   padding: 30px 60px;
+
+.main-img-title{
+    padding: 40px 30px;
+    h3{
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    p{
+     width: 330px;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+    }
+}
+.btn{
+    padding: 15px 35px;
+    border-radius: 30px;
+    background-color: $globalColor;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+}
+.main-photo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+//    padding: 0px 20px;
+   text-align: center;
+
+.photo-card{
+    background-image: url(../images/Rectangle\ \(11\).png);
+    background-repeat: no-repeat;
+
+    width: 500px;
+    height: 400px;
+ 
+    h4{
+        margin-top: 200px;
+        color: white;
+        font-size: 24px;
+        font-weight: 400;         
+           }
+p{
+    color: white;
+}
+}
+.photo-card1{
+    background-image: url(../images/Rectangle\ \(12\).png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 400px;
+ 
+    h4{
+     margin-top: 200px;
+     color: white;
+     font-size: 24px;
+     font-weight: 400;
+             
+          
+  }
+p{
+    color: white;
+}
+}
+.photo-card2{
+    background-image: url(../images/Rectangle\ \(13\).png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 400px;
+ 
+    h4{
+     margin-top: 200px;
+     color: white;
+     font-size: 24px;
+     font-weight: 400;  
+ }
+p{
+    color: white;
+}
+}
+}
+  .main-video{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+  }
+  .main{
+    h5{
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    h6{
+        width: 80px;
+        height: 3px;
+        background-color: #CFCFCF;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+  }
+  .main-cards2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    background: #E5E5E5;
+    position: relative;
+  
+.main-card2 img{
+    background: #E5E5E5;
+    margin-bottom: 20px;
+}
+    h4{
+ color: #FF4A32;;
+ font-weight: 400;
+font-size: 14px;
+margin-bottom: 8px;
+line-height: 18px;
+}
+  }
+  .footer-cards{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .footer{
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+    padding: 50px 0;
+    p{
+        width: 400px;
+    }
+  }
+.footer-end{
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    b{
+        color: red;
+        font-weight: 400;
+    }
+.icon{
+    display: flex;
+    gap: 20px;
+    font-size: 22px;
+}
+}
+}
+
+
+@media (max-width:447px){
+      .container{
+          width: 100%;
+      .links{
+          display: none;
+          li{
+              display: none;
+          }
+      } 
+  .header{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .header-footer{
+      display: flex;
+      flex-wrap: wrap;
+      img{
+          width: 40px;
+          height: 40px;
+          object-fit: cover;
+      }
+  }
+      .header-title{
+          h1{
+              font-size: 24px;
+              padding: 0px 0;
+              padding: 20px;
+              font-weight: 500;
+          }
+          p{
+             
+               font-weight: 400;
+               font-size: 12px;
+             }
+      }
+      }
+  
+      .main-info{
+          display: flex;
+          flex-wrap: wrap;
+      }
+      .main-cards{
+          flex-wrap: wrap;
+          width: 200px;
+          text-align: center;
+        
+      .card{
+          margin: 0 auto;
+        h4,p{
+          margin-left: 100px;
+          text-align: center;
+        }
+      }
+      }
+     .main-images{
+              width: 100%;
+              flex-wrap: wrap;
+              width: 200px;
+              height: 200px;
+              margin-left: 0px;   
+          }
+          .main-photo{
+              flex-wrap: wrap;
+             
+          }
+          .main-img-title{
+              flex-direction: column;
+          }
+          .photo-card{
+              flex-wrap: wrap;
+              width: 200px;
+              height: 200px;
+              margin-left: 0px;
+          }
+         
+            h4{
+           
+              font-size: 24px;
+             
+              left: 0px;
+              bottom: 00px;
+              font-weight: 400;
+          
+          
+            }
+            p{
+              color: white;
+              font-size: 18px;
+              font-weight: 400;
+          
+          
+            }
+            .main-card1{
+              display: flex;
+              width: 400px;
+              height: 300px;
+             
+             }
+            .photo-card{
+              display: flex;
+             flex-direction: column;
+             gap: 20px;
+              margin-top: 30px;          
+  
+            }
+            .main-video{
+              flex-wrap: wrap;
+            }
+            .main-cards2{
+              flex-wrap: wrap;
+            }
+            .footer-card{
+              flex-wrap: wrap; 
+              width: 400px;
+              height: 400px;   
+              img{
+                  padding-bottom: 40px; 
+              }
+              h3{
+                font-size: 16px;  
+              }
+              p{
+                  width: 40px;
+                  margin-top: 5px;
+                  text-align: center;
+                  font-size: 12px;
+              }
+            }
+            .footer{
+              flex-wrap: wrap;
+            }
+            .footer-info{
+              text-align: center;
+              padding-top: 10px;
+            
+            }
+            .footer-end{
+              flex-direction: column;
+              gap: 20px;
+              justify-content: center;
+              align-items: center;
+              .paragr{
+              p{
+                  font-size: 12px;
+                  color: black;
+        }
+      }
+     }
+  }
